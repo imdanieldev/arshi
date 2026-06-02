@@ -10,8 +10,8 @@
 			</div>
 			<div class="w-full flex justify-center items-center gap-x-1 mt-5 flex-col">
 				<h1 class="text-3xl split">Arshia Kadkhodaei</h1>
-				<div class="logo">
-					<img src="/logo.png" class="h-36">
+				<div class="logo mt-2">
+					<img src="/logo.png" class="h-38">
 				</div>
 			</div>
 			<div class="grid">
