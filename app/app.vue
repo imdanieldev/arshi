@@ -9,7 +9,7 @@
 				<img src="/arshi.jpg">
 			</div>
 			<div class="w-full flex justify-center items-center gap-x-1 mt-5 flex-col">
-				<h1 class="text-2xl md:text-3xl split">Arshia Kadkhodaei</h1>
+				<h1 class="text-3xl split">Arshia Kadkhodaei</h1>
 				<div class="bg-black/5 backdrop-blur-xs px-4 py-4 rounded-xl logo">
 					<img src="/logo.png" class="h-36">
 				</div>
