@@ -11,11 +11,11 @@
 			<div class="w-full flex justify-center items-center gap-x-1 mt-5 flex-col">
 				<h1 class="text-3xl split">Arshia Kadkhodaei</h1>
 				<div class="logo mt-2">
-					<img src="/logo.png" class="h-38">
+					<img src="/logo.png" class="h-40">
 				</div>
 			</div>
 			<div class="grid">
-				<div class="mt-5 flex flex-wrap gap-x-2 justify-center items-center w-full links">
+				<div class="mt-3 flex flex-wrap gap-x-2 justify-center items-center w-full links">
 					<a href="//instagram.com/z1arshia"
 						class="shadow-md shadow-white/10 text-lg flex justify-center items-center gap-x-1 bg-white/5 backdrop-blur-sm rounded-lg px-3 py-2 transition-colors duration-300 hover:bg-white/10">
 						<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8"
