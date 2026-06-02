@@ -8,10 +8,10 @@
 			<div class="arshi w-64 rounded-full border-2 border-solid border-white overflow-hidden relative">
 				<img src="/arshi.jpg">
 			</div>
-			<div class="w-full flex justify-center items-center gap-x-1 mt-5">
+			<div class="w-full flex justify-center items-center gap-x-1 mt-5 flex-col">
 				<h1 class="text-2xl md:text-3xl split">Arshia Kadkhodaei</h1>
 				<div class="bg-black/5 backdrop-blur-xs px-4 py-4 rounded-xl logo">
-					<img src="/logo.png" class="h-16 md:h-22">
+					<img src="/logo.png" class="h-64">
 				</div>
 			</div>
 			<div class="grid">
@@ -70,12 +70,11 @@ onMounted(() => {
 	gsap.from(split.chars, {
 		duration: 1.5,
 		x: 100,
-		y: 100,
-		rotate: 180,
+		opacity: 0,
 		autoAlpha: 0,
 		stagger: 0.05,
 		delay: 2,
-		ease: "back.out(1.7)",
+		ease: "power4.in",
 	});
 	gsap.from(".arshi", {
 		duration: 2,
