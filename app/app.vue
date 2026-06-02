@@ -5,13 +5,13 @@
 				:bend-strength="-0.5" :interactive="true" :parallax="false" />
 		</div>
 		<div class="w-full min-h-svh relative z-10 text-white flex items-center justify-center flex-col">
-			<div class="arshi w-64 rounded-full border-2 border-solid border-white overflow-hidden relative">
+			<div class="arshi w-42 rounded-full border-2 border-solid border-white overflow-hidden relative">
 				<img src="/arshi.jpg">
 			</div>
 			<div class="w-full flex justify-center items-center gap-x-1 mt-5 flex-col">
 				<h1 class="text-2xl md:text-3xl split">Arshia Kadkhodaei</h1>
 				<div class="bg-black/5 backdrop-blur-xs px-4 py-4 rounded-xl logo">
-					<img src="/logo.png" class="h-64">
+					<img src="/logo.png" class="h-40">
 				</div>
 			</div>
 			<div class="grid">
@@ -65,12 +65,12 @@ import { SplitText } from "gsap/SplitText";
 gsap.registerPlugin(SplitText);
 
 onMounted(() => {
-	let split = SplitText.create(".split", { type: "chars" });
+	let split = SplitText.create(".split", { type: "words" });
 
 	gsap.from(split.chars, {
 		duration: 1.5,
-		x: 100,
-		opacity: 0,
+		y: -100,
+		filter: blur(5px),
 		autoAlpha: 0,
 		stagger: 0.05,
 		delay: 2,
