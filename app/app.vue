@@ -68,11 +68,11 @@ onMounted(() => {
 	let split = SplitText.create(".split", { type: "words" });
 
 	gsap.from(split.words, {
-		duration: 1.5,
+		duration: 2,
 		y: -100,
 		filter: "blur(5px)",
 		autoAlpha: 0,
-		stagger: 0.05,
+		stagger: 0.5,
 		delay: 2,
 		ease: "power4.in",
 	});
