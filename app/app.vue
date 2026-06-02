@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="w-full h-svh bg-black fixed top-0 left-0 z-0">
-			<FloatingLines :enabled-waves="['middle']" :line-count="[2]" :line-distance="[10]" :bend-radius="5.0"
+			<FloatingLines :enabled-waves="['middle','bottom']" :line-count="[2,3]" :line-distance="[10,4]" :bend-radius="5.0"
 				:bend-strength="-0.5" :interactive="true" :parallax="false" />
 		</div>
 		<div class="w-full min-h-svh relative z-10 text-white flex items-center justify-center flex-col">
@@ -9,9 +9,9 @@
 				<img src="/arshi.jpg">
 			</div>
 			<div class="w-full flex justify-center items-center gap-x-1 mt-5">
-				<h1 class="text-3xl split">Arshia Kadkhodaei</h1>
+				<h1 class="text-2xl md:text-3xl split">Arshia Kadkhodaei</h1>
 				<div class="bg-black/5 backdrop-blur-xs px-4 py-4 rounded-xl logo">
-					<img src="/logo.png" class="h-22">
+					<img src="/logo.png" class="h-16 md:h-22">
 				</div>
 			</div>
 			<div class="grid">
