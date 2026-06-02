@@ -70,7 +70,7 @@ onMounted(() => {
 	gsap.from(split.chars, {
 		duration: 1.5,
 		y: -100,
-		filter: blur(5px),
+		filter: "blur(5px)",
 		autoAlpha: 0,
 		stagger: 0.05,
 		delay: 2,
