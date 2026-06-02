@@ -69,7 +69,7 @@ onMounted(() => {
 
 	gsap.from(split.words, {
 		duration: 2,
-		y: -100,
+		y: -40,
 		filter: "blur(5px)",
 		autoAlpha: 0,
 		stagger: 0.5,
