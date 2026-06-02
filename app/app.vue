@@ -11,7 +11,7 @@
 			<div class="w-full flex justify-center items-center gap-x-1 mt-5 flex-col">
 				<h1 class="text-2xl md:text-3xl split">Arshia Kadkhodaei</h1>
 				<div class="bg-black/5 backdrop-blur-xs px-4 py-4 rounded-xl logo">
-					<img src="/logo.png" class="h-40">
+					<img src="/logo.png" class="h-36">
 				</div>
 			</div>
 			<div class="grid">
@@ -67,7 +67,7 @@ gsap.registerPlugin(SplitText);
 onMounted(() => {
 	let split = SplitText.create(".split", { type: "words" });
 
-	gsap.from(split.chars, {
+	gsap.from(split.words, {
 		duration: 1.5,
 		y: -100,
 		filter: "blur(5px)",
@@ -85,8 +85,7 @@ onMounted(() => {
 	});
 	gsap.from(".logo", {
 		duration: 2,
-		scale: 0,
-		rotate: 180,
+		opacity: 0,
 		autoAlpha: 0,
 		ease: "back.out(1.7)",
 		delay: 1.5,
